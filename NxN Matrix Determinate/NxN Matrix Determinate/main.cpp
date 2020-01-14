@@ -4,6 +4,7 @@
 
 using namespace std;
 
+
 void display(vector<vector<int>> &a) {
   for (int i = 0; i < a.size(); i++) {
     cout << endl;
@@ -13,6 +14,7 @@ void display(vector<vector<int>> &a) {
   }
   cout << endl;
 }
+
 
 int det2x2(vector<vector<int>> &a) {
   return ((a[0][0] * a[1][1]) - (a[0][1] * a[1][0]));
@@ -29,7 +31,6 @@ int nxnSolve(vector<vector<int>> &a) {
     vector<vector<int>> temp(a.size() - 1, vector<int>(a.size() - 1));
     // goes over top row of numbers, and recursively calls this function until its a 2x2 in which det2x2 will be called.
     for (int i = 0; i < a.size(); i++) {
-
 
       // Fills smaller temp vector because of row operations.
       for (int j = 1; j < a.size(); j++) {
@@ -51,14 +52,12 @@ int nxnSolve(vector<vector<int>> &a) {
         det += -1 * a[0][i] * nxnSolve(temp);
       }
 
-
       pos = !pos;
     }
   }
 
   return det;
 }
-
 
 
 int main() {
