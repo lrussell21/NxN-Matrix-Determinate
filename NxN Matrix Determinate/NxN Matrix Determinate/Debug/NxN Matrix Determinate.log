@@ -1,0 +1,7 @@
+﻿  main.cpp
+c:\users\levi\source\repos\nxn matrix determinate\nxn matrix determinate\main.cpp(8): warning C4018: '<': signed/unsigned mismatch
+c:\users\levi\source\repos\nxn matrix determinate\nxn matrix determinate\main.cpp(10): warning C4018: '<': signed/unsigned mismatch
+c:\users\levi\source\repos\nxn matrix determinate\nxn matrix determinate\main.cpp(31): warning C4018: '<': signed/unsigned mismatch
+c:\users\levi\source\repos\nxn matrix determinate\nxn matrix determinate\main.cpp(35): warning C4018: '<': signed/unsigned mismatch
+c:\users\levi\source\repos\nxn matrix determinate\nxn matrix determinate\main.cpp(37): warning C4018: '<': signed/unsigned mismatch
+  NxN Matrix Determinate.vcxproj -> C:\Users\Levi\source\repos\NxN Matrix Determinate\Debug\NxN Matrix Determinate.exe
